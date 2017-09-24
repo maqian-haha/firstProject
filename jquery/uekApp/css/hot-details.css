@@ -1,0 +1,316 @@
+/*
+* @Author: 13009
+* @Date:   2017-07-22 18:56:07
+* @Last Modified by:   13009
+* @Last Modified time: 2017-07-22 21:59:50
+*/
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none; 
+	list-style: none;
+}
+header{
+	width: 100%;
+	height:0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+	
+	left: 0;
+	top: 0;
+}
+.header-box{
+	width: 100%;
+	height:0.92rem;
+	background: #0078e6;
+
+}
+.you-logo{
+	width: 0.78rem;
+	height: 0.69rem;
+	float: left;
+}
+.you-logo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin-left: 2.67rem;
+	margin-top: 0.12rem;
+}
+.youyike-word{
+	color:#ffffff ;
+	height: 100%;
+	float: right;
+	line-height: 0.92rem;
+	font-size: 0.36rem;
+	font-weight: bolder;
+	margin-right: 2.75rem;
+	
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner a{
+	width: 100%;
+	height: 2.8rem;
+}
+
+.banner a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+nav{
+   width: 100%;
+   height:0.82rem;
+   background: #f5f6fa; 
+}
+nav ul li {
+	height: 100%;
+	font-size: 0.22rem;
+	color: #494747;
+	font-weight: bold;
+	line-height: 0.82rem;
+	margin-left: 0.23rem;
+	float: left;
+}
+nav ul li a{
+	color: #494747;
+}
+/* 热门问题 */
+.hot-qustion{
+	width: 100%;
+	/* height: 3.475rem; */
+	background: #f5f6fa;
+}
+.hot-main{
+	width: 93.6%;
+	/* height: 100%; */
+	background:#ffffff;
+	margin: 0 auto;
+}
+.hot-head{
+	width: 100%;
+	height: 0.67rem;
+	/* background: red; */
+}
+.gaishutiao{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	float: left;
+	margin-top: 0.29rem;
+	margin-left: 0.19rem;
+}
+.hot-heading{
+	width: 6.4rem;
+	height: 0.32rem;
+	float: left;
+	font-size: 0.23rem;
+	color: #444444;
+	padding-bottom: 0.14rem;
+	border-bottom: 0.01rem dashed #999999;
+	margin-left: 0.19rem;
+	padding-top: 0.2rem;
+}
+.details{
+	width: 6.48rem;
+	
+	padding-top: 0.06rem;
+	padding-left:0.4rem ;
+	font-size: 0.24rem;
+	line-height: 0.4rem;
+	color: #959595;
+}
+.kongge{
+	width: 100%;
+	height: 0.36rem;
+	background: #ffffff;
+}
+.tupian{
+	width: 100%;
+	height: 3.63rem;
+	background: #474747;
+
+}
+.fengexian{
+	border-bottom: 0.01rem dashed #999999;
+}
+.share{
+	width: 100%;
+	height: 0.4rem;
+	/* background: red; */
+	padding-top: 0.26rem;
+	padding-bottom: 0.26rem;
+}
+.share .word{
+	float: left;
+	line-height: 0.4rem;
+	font-size: 0.24rem;
+	color: #000000;
+	padding-left: 0.21rem;
+}
+.share .logo{
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 50%;
+	/* background: pink; */
+	float: left;
+	margin-right: 0.2rem;
+}
+.share img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.share .dianzan{
+   float: right;
+}
+.share  .dianzan img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+/* 跳转上下篇 */
+.charpter{
+	width: 100%;
+	height: 1.26rem;
+	background: #f5f6fa;
+}
+.shangyipian{
+	width: 100%;
+	height: 0.63rem;
+	/* background: pink; */
+
+}
+.shangyipian .shang-word{
+    display:block;
+	font-size: 0.24rem;
+	color: #000000;
+	float: left;
+	padding-left: 0.44rem;
+	padding-top: 0.2rem;
+}
+.shangyipian .qu-padding{
+
+	padding-left: 0;
+	color: #67c8fe;
+}
+.xiayipian{
+	width: 100%;
+	height: 0.63rem;
+	/* background:blue; */
+
+}
+.xiayipian .xia-word{
+    display:block;
+	font-size: 0.24rem;
+	color: #000000;
+	float: left;
+	padding-left: 0.44rem;
+	padding-top: 0.1rem;
+}
+.xiayipian .qu-padding{
+
+	padding-left: 0;
+	color: #67c8fe;
+}
+/* 相关问题 */
+.reletive-question{
+	width: 100%;
+	height: 3.1rem;
+	background: #f5f6fa;
+}
+.reletive-main{
+	width: 93.6%;
+	height: 100%;
+	background:#ffffff;
+	margin: 0 auto;
+}
+.reletive-head{
+	width: 100%;
+	height: 0.67rem;
+	/* background: red; */
+}
+.gaishutiao{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	float: left;
+	margin-top: 0.29rem;
+	margin-left: 0.19rem;
+}
+.reletive-heading{
+	width: 6.4rem;
+	height: 0.32rem;
+	float: left;
+	font-size: 0.23rem;
+	color: #444444;
+	padding-bottom: 0.14rem;
+	border-bottom: 0.01rem dashed #999999;
+	margin-left: 0.19rem;
+	padding-top: 0.2rem;
+}
+.reletive-neirong{
+	width: 6.74rem;
+	
+	height: 2.43rem;
+	/* background: yellow; */
+}
+.reletive-neirong .diyihang{
+	width: 100%;
+	height: 0.60rem;
+}
+.reletive-start{
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #ffffff;
+	border-radius: 50%;
+	border: 0.02rem solid #09b7ff;
+	margin-left: 0.16rem;
+	margin-top: 0.25rem;
+	float: left;
+}
+.reletive-start .xiaoyuan{
+	width: 0.04rem;
+	height: 0.04rem;
+	background: #01b5ff;
+	margin: 0 auto;
+	border-radius: 50%;
+	margin-top: 0.02rem;
+}
+.wenti{
+	
+	height: 100%;
+	font-size: 0.26rem;
+	color: #757678;
+	/* margin-top: 0.18rem; */
+	line-height: 0.6rem;
+	float: left;
+}
+.overflow{
+	overflow: hidden;
+}
+.huanse{
+	color:#01b5ff;
+	padding-bottom: 0.35rem;
+}
+/* 底部 */
+footer{
+	width: 100%;
+	height: 0.92rem;
+	background: #f5f6fa;
+}
+.banquan{
+	height: 0.2rem;
+	font-size: 0.18rem;
+	padding-bottom: 0.05rem;
+	padding-top: 0.1rem;
+	color: #666666;
+	text-align: center;
+}
+

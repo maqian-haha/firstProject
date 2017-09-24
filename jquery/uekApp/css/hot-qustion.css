@@ -1,0 +1,239 @@
+/*
+* @Author: 13009
+* @Date:   2017-07-22 17:51:20
+* @Last Modified by:   13009
+* @Last Modified time: 2017-07-22 18:54:38
+*/
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+header{
+	width: 100%;
+	height:0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+	
+	left: 0;
+	top: 0;
+}
+.header-box{
+	width: 100%;
+	height:0.92rem;
+	background: #0078e6;
+
+}
+.you-logo{
+	width: 0.78rem;
+	height: 0.69rem;
+	float: left;
+}
+.you-logo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin-left: 2.67rem;
+	margin-top: 0.12rem;
+}
+.youyike-word{
+	color:#ffffff ;
+	height: 100%;
+	float: right;
+	line-height: 0.92rem;
+	font-size: 0.36rem;
+	font-weight: bolder;
+	margin-right: 2.75rem;
+	
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner a{
+	width: 100%;
+	height: 2.8rem;
+}
+
+.banner a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+nav{
+   width: 100%;
+   height:0.82rem;
+   background: #f5f6fa; 
+}
+nav ul li {
+	height: 100%;
+	font-size: 0.22rem;
+	color: #494747;
+	font-weight: bold;
+	line-height: 0.82rem;
+	margin-left: 0.23rem;
+	float: left;
+}
+nav ul li a{
+	color: #494747;
+}
+/* 热门问题 */
+.hot-qustion{
+	width: 100%;
+	height: 3.475rem;
+	background: #f5f6fa;
+}
+.hot-main{
+	width: 93.6%;
+	height: 100%;
+	background:#ffffff;
+	margin: 0 auto;
+}
+.hot-head{
+	width: 100%;
+	height: 0.67rem;
+	/* background: red; */
+}
+.gaishutiao{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	float: left;
+	margin-top: 0.29rem;
+	margin-left: 0.19rem;
+}
+.hot-heading{
+	width: 6.4rem;
+	height: 0.32rem;
+	float: left;
+	font-size: 0.23rem;
+	color: #444444;
+	padding-bottom: 0.14rem;
+	
+	margin-left: 0.19rem;
+	padding-top: 0.2rem;
+}
+.hot-neirong{
+	width: 6.74rem;
+	height: 2.325rem;
+	/* background: yellow; */
+}
+.hot-start{
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #ffffff;
+	border-radius: 50%;
+	border: 0.02rem solid #09b7ff;
+	margin-left: 0.16rem;
+	margin-top: 0.16rem;
+	float: left;
+}
+.hot-start .xiaoyuan{
+	width: 0.04rem;
+	height: 0.04rem;
+	background: #01b5ff;
+	margin: 0 auto;
+	border-radius: 50%;
+	margin-top: 0.02rem;
+}
+.detail{
+	width: 6.2rem;
+	height: 100%;
+	float: right;
+	padding-right: 0.14rem;
+	/* background:gray; */
+	font-size:0.22rem;
+	line-height: 0.465rem;
+	color: #666666; 
+}
+.zhankai{
+	display: block;
+	width: 6.46rem;
+	height: 0.46rem;
+	margin: 0 auto;
+	font-size: 0.22rem;
+	color: #ff9300;
+	text-align: center;
+	line-height: 0.46rem;
+	border-bottom: 0.01rem dashed #999999;
+
+}
+.fenge{
+	width: 100%;
+	height: 0.38rem;
+	background: #f5f6fa;
+}
+.fenga-main{
+	width: 93.6%;
+	height: 0.29rem;
+	background: #ffffff;
+	margin: 0 auto;
+}
+/*  分页导航 */ 
+.page-num{
+	width: 100%;
+	height: 0.7rem;
+	background: #ffffff;
+}
+
+
+.box1{
+	width: 0.54rem;
+	height: 0.29rem;
+	margin-top: 0.18rem;
+	margin-left: 0.15rem;
+	float: left;
+}
+.box1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.page-box{
+	float: left;
+	width: 0.32rem;
+	height: 0.32rem;
+	margin-top: 0.16rem;
+	margin-left: 0.15rem;
+
+} 
+.page-box img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.more-box{
+
+	float: left;
+	font-size: 0.12rem;
+    padding-bottom: 0.25rem;
+
+	margin-left: 0.15rem;
+	
+}
+.tiaozhao-word{
+	font-size: 0.16rem;
+	color: #4a4a4a;
+	line-height: 0.7rem;
+	margin-left: 0.15rem;
+	float: left;
+}
+
+
+/* 底部 */
+footer{
+	width: 100%;
+	height: 0.92rem;
+	background: #f5f6fa;
+}
+.banquan{
+	height: 0.2rem;
+	font-size: 0.18rem;
+	padding-bottom: 0.05rem;
+	padding-top: 0.1rem;
+	color: #666666;
+	text-align: center;
+}

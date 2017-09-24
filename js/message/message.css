@@ -1,0 +1,112 @@
+/*
+* @Author: 13009
+* @Date:   2017-08-21 18:18:06
+* @Last Modified by:   13009
+* @Last Modified time: 2017-08-21 21:23:25
+*/
+
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	resize: none;
+}
+main{
+	width: 1000px;
+	height: auto;
+	min-height: 300px;
+	margin: 100px auto;
+	padding: 40px;
+	background: #c7d7be;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.content{
+	width: 60%;
+	height: auto;
+	min-height: 300px;
+	float: left;
+	box-sizing: border-box;
+	padding: 8px 10px;
+}
+.content>li{
+	width: 100%;
+	height:auto;
+	min-height: 80px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #172a07;
+	
+}
+.content>li img{
+width: 60px;
+position: absolute;
+z-index: 999;
+margin-top: 10px;
+
+}
+.content>li .conRight{
+position: relative;
+margin-left: 80px;
+/* background: red; */
+line-height: 38px;
+padding-left: 6px;
+}
+
+.content>li .conRight .name{
+	height: 38px;
+}
+.content>li .conRight .neirong{
+	color: #525050;
+	font-weight: normal;
+}
+.mesBrand{
+	float: right;
+	width: 40%;
+	height: auto;
+	min-height: 300px;
+}
+.mesBrand input{
+	width: 100%;
+	font-size: 20px;
+	padding: 6px 4px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	border-radius: 6px;
+    border: none;
+	outline: none;
+	border: 1px solid #9a9898;
+}
+.mesBrand textarea{
+	width: 100%;
+	height: 200px;
+	font-size: 20px;
+	padding: 6px 4px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	border: 1px solid #9a9898;
+    
+	outline: none;
+}
+.mesBrand .tip{
+	font-size: 16px;
+	color: #1d242a;
+}
+.mesBrand .tip span{
+	color: #2db8ba;
+	padding-bottom: 10px;
+}
+.mesBrand button{
+	font-size: 18px;
+	width: 100%;
+	padding: 6px 6px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	background: #68d3c9;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+
+}

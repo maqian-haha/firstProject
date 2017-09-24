@@ -1,0 +1,174 @@
+*{
+	padding:0;
+	margin:0;
+	text-decoration: none;
+	list-style: none;
+}
+body,html{
+	width:100%;
+	height: 100%;
+	overflow: hidden;
+}
+main{
+	width:100%;
+	height: 100%;
+}
+ul.img{
+	width:100%;
+	height: 100%;
+	position: relative;
+}
+.img>li img{
+	width:100%;
+	/*height: 100%;*/
+	position: absolute;
+	top:0;
+	left:0;
+}
+.top{
+	position: absolute;
+	height: 80px;
+	top:80px;
+	left:100px;	
+	width: 400px;
+	/*background: red;*/
+}
+.top>li{
+	line-height: 40px;
+	font-size: 18px;
+	text-align: center;
+	color: #3f3833;;
+}
+.list{
+	position: absolute;
+	width:400px;	
+	height: 360px;
+	left:100px;
+	top:160px;
+	overflow: hidden;
+	/*background: yellow;*/
+	/*margin:0 auto*/
+}
+.list>li{
+	line-height: 40px;
+	font-size: 18px;
+	text-align: center;
+	color: #3f3833;
+}
+.bottom{
+	height: 80px;
+	width: 100%;
+	background: #909090;
+	opacity: 0.8;
+	position: absolute;
+	bottom:0;
+	left:0;
+	padding:0 80px;
+}
+.bottom>.iconfont{
+	font-size: 40px;
+	float:left;
+	line-height: 80px;
+    color: white;
+    margin-right:20px;
+}
+.bottom .icon-bofang1{
+	font-weight: bold;
+	font-size: 46px;
+	
+}
+.bottom .icon-zanting1{
+	font-size: 46px;
+	font-weight: bold;
+}
+.bottom .minImg{
+	float:left;
+	width:80px;
+	height: 100%;
+}
+.bottom .minImg img{
+	width:80px;
+	
+}
+.bottom .warpBox{
+	width: 600px;
+	height: 100%;
+	float:left;
+}
+.warpBox p{
+	height: 30px;
+	line-height: 30px;
+	padding:15px 20px 6px 20px;
+	font-size: 16px;
+	color: #fefefe;
+}
+.warpBox p .wsong{
+	float:left;
+}
+.warpBox p .wsinger{
+	float:left;
+}
+.warpBox p .time{	
+	float:right;
+}
+.warpBox .warp{
+	height: 4px;
+	width: 560px;
+	background: #18121a;
+	margin:0 auto;
+	border-radius: 2px;
+	
+}
+.bar{
+	width:0% ;
+	height: 100%;
+	background: #00C5C7;
+}
+.icon-yinliang{
+	position: relative;
+}
+.icon-jingyin{
+	position: relative;
+	font-size: 20px;
+}
+.yBox{
+	position: absolute;
+	width: 50px;
+	height: 100px;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right: auto;
+	/*background: red;*/
+	top:-90px;
+}
+.volume{
+	position: absolute;
+	width:4px ;
+	height:100px ;
+	background:#18121a;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right: auto;
+	border-radius: 5px;
+	display: none;
+}
+.vbar{
+	position: absolute;
+    bottom:0px;
+	left:0;
+	width: 4px;
+	height: 0;
+	background: #00C5C7;
+}
+.yuan{
+	position: absolute;
+	left:50%;
+	margin-left:-8px;
+	top:84px;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background:white;
+}

@@ -1,0 +1,199 @@
+/*
+* @Author: 13009
+* @Date:   2017-07-20 11:07:48
+* @Last Modified by:   13009
+* @Last Modified time: 2017-07-22 10:46:23
+*/
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+header{
+	width: 100%;
+	height:0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+	
+	left: 0;
+	top: 0;
+}
+.header-box{
+	width: 100%;
+	height:0.92rem;
+	background: #0078e6;
+
+}
+.you-logo{
+	width: 0.78rem;
+	height: 0.69rem;
+	float: left;
+}
+.you-logo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin-left: 2.67rem;
+	margin-top: 0.12rem;
+}
+.youyike-word{
+	color:#ffffff ;
+	height: 100%;
+	float: right;
+	line-height: 0.92rem;
+	font-size: 0.36rem;
+	font-weight: bolder;
+	margin-right: 2.75rem;
+	
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner a{
+	width: 100%;
+	height: 2.8rem;
+}
+
+.banner a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+nav{
+   width: 100%;
+   height:0.82rem;
+   background: #f5f6fa; 
+}
+nav ul li {
+	height: 100%;
+	font-size: 0.22rem;
+	color: #494747;
+	font-weight: bold;
+	line-height: 0.82rem;
+	margin-left: 0.23rem;
+	float: left;
+}
+nav ul li a{
+	color: #494747;
+}
+/* 主体内容 */
+.content{
+	width: 100%;
+	height: 15.6rem;
+	background: #f5f6fa;
+}
+.main{
+	width: 93.6%;
+	height: 1.85rem;
+	margin: 0 auto;
+	background:#ffffff;
+	margin-bottom: 0.1rem;
+}
+.men-box{
+	width: 1.93rem;
+	height: 1.45rem;
+	margin-top: 0.2rem;
+	margin-left: 0.2rem;
+	float: left;
+	background: #c8c8c8;
+}
+.men-jianjie{
+	width: 4.6rem;
+	height: 1.4rem;
+	/* background: gray; */
+	float: right;
+	margin-right: 0.1rem;
+	margin-top: 0.2rem;
+}
+.diyihang{
+	/* background: yellow; */
+	margin-bottom: 0.1rem;
+	height: 0.32rem;
+
+}
+.dianxian{
+	padding-bottom: 0.02rem;
+	border-bottom: 0.02rem dotted #727272;
+}
+.name{
+	font-size: 0.24rem;
+	color: #111111;
+	float: left;
+}
+.yuexin{
+	font-size: 0.18rem;
+	color: #444444;
+	float: left;
+	margin-left: 0.05rem;
+}
+.fuli{
+	color: #94d43b;
+}
+/* 分页导航 */
+.page-num{
+	width: 100%;
+	height: 0.7rem;
+	background: #ffffff;
+}
+
+
+.box1{
+	width: 0.54rem;
+	height: 0.29rem;
+	margin-top: 0.18rem;
+	margin-left: 0.15rem;
+	float: left;
+}
+.box1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.page-box{
+	float: left;
+	width: 0.32rem;
+	height: 0.32rem;
+	margin-top: 0.16rem;
+	margin-left: 0.15rem;
+
+} 
+.page-box img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.more-box{
+
+	float: left;
+	font-size: 0.12rem;
+    padding-bottom: 0.25rem;
+
+	margin-left: 0.15rem;
+	
+}
+.tiaozhao-word{
+	font-size: 0.16rem;
+	color: #4a4a4a;
+	line-height: 0.7rem;
+	margin-left: 0.15rem;
+	float: left;
+}
+
+/* 底部 */
+footer{
+	width: 100%;
+	height: 0.92rem;
+	background: #f5f6fa;
+}
+.banquan{
+	height: 0.2rem;
+	font-size: 0.18rem;
+	padding-bottom: 0.05rem;
+	padding-top: 0.1rem;
+	color: #666666;
+	text-align: center;
+}

@@ -1,0 +1,198 @@
+/*
+* @Author: 13009
+* @Date:   2017-07-22 21:36:31
+* @Last Modified by:   13009
+* @Last Modified time: 2017-07-22 22:40:13
+*/
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+header{
+	width: 100%;
+	height:0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+	
+	left: 0;
+	top: 0;
+}
+.header-box{
+	width: 100%;
+	height:0.92rem;
+	background: #0078e6;
+
+}
+.you-logo{
+	width: 0.78rem;
+	height: 0.69rem;
+	float: left;
+}
+.you-logo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin-left: 2.67rem;
+	margin-top: 0.12rem;
+}
+.youyike-word{
+	color:#ffffff ;
+	height: 100%;
+	float: right;
+	line-height: 0.92rem;
+	font-size: 0.36rem;
+	font-weight: bolder;
+	margin-right: 2.75rem;
+	
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner a{
+	width: 100%;
+	height: 2.8rem;
+}
+
+.banner a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+nav{
+   width: 100%;
+   height:0.82rem;
+   background: #f5f6fa; 
+}
+nav ul li {
+	height: 100%;
+	font-size: 0.22rem;
+	color: #494747;
+	font-weight: bold;
+	line-height: 0.82rem;
+	margin-left: 0.23rem;
+	float: left;
+}
+nav ul li a{
+	color: #494747;
+}
+/* 助学贷款 */
+.help-student{
+	width: 100%;
+	/* height: 3.475rem; */
+	background: #f5f6fa;
+}
+.help-main{
+	width: 93.6%;
+	/* height: 100%; */
+	background:#ffffff;
+	margin: 0 auto;
+}
+.help-head{
+	width: 100%;
+	height: 0.67rem;
+	/* background: red; */
+}
+.gaishutiao{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	float: left;
+	margin-top: 0.29rem;
+	margin-left: 0.19rem;
+}
+.help-heading{
+	width: 6.4rem;
+	height: 0.32rem;
+	float: left;
+	font-size: 0.23rem;
+	color: #444444;
+	padding-bottom: 0.14rem;
+	border-bottom: 0.01rem dashed #999999;
+	margin-left: 0.19rem;
+	padding-top: 0.2rem;
+}
+.apliy-tiaojian{
+	width: 100%;
+	/* background: yellow; */
+}
+.apliy-tiaojian li{
+	height: 0.4rem;
+	font-size: 0.24rem;
+	color: #959595;
+	padding-left: 0.3rem;
+	line-height: 0.4rem;
+}
+.apliy-tiaojian .shang-padding{
+	padding-top: 0.24rem;
+}
+.kongge{
+	width: 100%;
+	height: 0.36rem;
+	background: #ffffff;
+}
+.tupian{
+	width: 100%;
+	height: 3.63rem;
+	background: #474747;
+
+}
+.fengexian{
+	width: 91.7%;
+	margin: 0 auto;
+	border-bottom: 0.01rem dashed #999999;
+}
+.share{
+	width: 100%;
+	height: 0.4rem;
+	/* background: red; */
+	padding-top: 0.26rem;
+	padding-bottom: 0.26rem;
+}
+.share .word{
+	float: left;
+	line-height: 0.4rem;
+	font-size: 0.24rem;
+	color: #000000;
+	padding-left: 0.21rem;
+}
+.share .logo{
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 50%;
+	/* background: pink; */
+	float: left;
+	margin-right: 0.2rem;
+}
+.share img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.share .dianzan{
+   float: right;
+}
+.share  .dianzan img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+/* 底部 */
+footer{
+	width: 100%;
+	height: 0.92rem;
+	background: #f5f6fa;
+}
+.banquan{
+	height: 0.2rem;
+	font-size: 0.18rem;
+	padding-bottom: 0.05rem;
+	padding-top: 0.1rem;
+	color: #666666;
+	text-align: center;
+}

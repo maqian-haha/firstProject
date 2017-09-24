@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>打字游戏</title>
+	<link rel="stylesheet" href="game.css">
+	<script src="game.js"></script>
+</head>
+<body>
+	<div class="score">
+		得分：<span>0</span>
+	</div>
+	<div class="life">
+		生命值：<span>10</span>
+	</div>
+	<div class="now">
+		当前关数：<span>1</span>
+	</div>
+	<button class="go">开始游戏</button>	
+	
+</body>
+</html>
+<script>
+  let go=document.querySelector('button.go');
+  go.onclick=function(){
+  	let game=new Game();
+  	go.style.display='none';
+	game.start();
+
+  }
+	
+</script>

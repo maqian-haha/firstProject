@@ -1,0 +1,274 @@
+/*
+* @Author: 13009
+* @Date:   2017-07-22 10:49:21
+* @Last Modified by:   13009
+* @Last Modified time: 2017-07-22 13:54:45
+*/
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+header{
+	width: 100%;
+	height:0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+	
+	left: 0;
+	top: 0;
+}
+.header-box{
+	width: 100%;
+	height:0.92rem;
+	background: #0078e6;
+
+}
+.you-logo{
+	width: 0.78rem;
+	height: 0.69rem;
+	float: left;
+}
+.you-logo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin-left: 2.67rem;
+	margin-top: 0.12rem;
+}
+.youyike-word{
+	color:#ffffff ;
+	height: 100%;
+	float: right;
+	line-height: 0.92rem;
+	font-size: 0.36rem;
+	font-weight: bolder;
+	margin-right: 2.75rem;
+	
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner a{
+	width: 100%;
+	height: 2.8rem;
+}
+
+.banner a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+nav{
+   width: 100%;
+   height:0.82rem;
+   background: #f5f6fa; 
+}
+nav ul li {
+	height: 100%;
+	font-size: 0.22rem;
+	color: #494747;
+	font-weight: bold;
+	line-height: 0.82rem;
+	margin-left: 0.23rem;
+	float: left;
+}
+nav ul li a{
+	color: #494747;
+}
+/* html页面 */
+.html{
+	width: 100%;
+	height: 3.35rem;
+	background: #ffffff;
+	border-bottom: 0.04rem solid #f5f6fa;
+	position: relative;
+}
+.html-first{
+	height: 0.72rem;
+	line-height: 0.72rem;
+	font-size: 0.24rem;
+	color: #000000;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	font-weight: bolder;
+}
+.html-center{
+	width: 100%;
+	height: 1.8rem;
+	display: block;
+}
+.tu-border{
+	width: 1.91rem;
+	height: 1.43rem;
+
+	border: 0.01rem solid #4ccbff;
+	margin-left: 0.34rem;
+	position: relative;
+	float: left;
+
+}
+.dian1{
+	width: 0.06rem;
+	height: 0.06rem;
+	background: #4ccbff;
+	position: absolute;
+	left: -0.03rem;
+	top: -0.03rem;
+}
+.dian2{
+	width: 0.06rem;
+	height: 0.06rem;
+	background: #4ccbff;
+	position: absolute;
+	left: -0.03rem;
+	bottom: -0.03rem;
+}
+.dian3{
+	width: 0.06rem;
+	height: 0.06rem;
+	background: #4ccbff;
+	position: absolute;
+	right: -0.03rem;
+	top: -0.03rem;
+}
+.dian4{
+	width: 0.06rem;
+	height: 0.06rem;
+	background: #4ccbff;
+	position: absolute;
+	right: -0.03rem;
+	bottom: -0.03rem;
+}
+.html-img{
+	width: 1.93rem;
+	height: 1.45rem;
+	position: absolute;
+	background: #c8c8c8;
+	left: 0.24rem;
+	top: 0.82rem;
+	float: left;
+}
+.html-word{
+	width: 4.66rem;
+	height: 1.6rem;
+	float: right;
+	padding-right: 0.24rem;
+	
+	/* background: red; */
+}
+.one-three{
+	height: 1.2rem;
+	line-height: 0.4rem;
+	font-size: 0.24rem;
+	color: #494747;
+}
+.html-word .four{
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.24rem;
+	color: #494747;
+}
+.view{
+	width: 93.6%;
+	height: 0.6rem;
+	margin: 0 auto;
+	border-top:0.01rem solid #cecece;
+	border-bottom:0.01rem solid #cecece;
+
+}
+
+.view li{
+	width: 33.333333%;
+	height: 100%;
+	float: left;
+
+} 
+.view  .view-logo{
+	width: 0.31rem;
+	height: 0.31rem;
+	float: left;
+	margin-top: 0.14rem;
+	margin-left: 0.08rem;
+}
+.view  .view-logo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.view  .view-word{
+	height: 100%;
+	line-height: 0.6rem;
+	font-size: 0.18rem;
+	float: left;
+	color: #b3b3b3;
+	margin-left: 0.1rem;
+}
+/* 分页导航 */
+.page-num{
+	width: 100%;
+	height: 0.7rem;
+	background: #ffffff;
+}
+
+
+.box1{
+	width: 0.54rem;
+	height: 0.29rem;
+	margin-top: 0.18rem;
+	margin-left: 0.15rem;
+	float: left;
+}
+.box1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.page-box{
+	float: left;
+	width: 0.32rem;
+	height: 0.32rem;
+	margin-top: 0.16rem;
+	margin-left: 0.15rem;
+
+} 
+.page-box img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.more-box{
+
+	float: left;
+	font-size: 0.12rem;
+    padding-bottom: 0.25rem;
+
+	margin-left: 0.15rem;
+	
+}
+.tiaozhao-word{
+	font-size: 0.16rem;
+	color: #4a4a4a;
+	line-height: 0.7rem;
+	margin-left: 0.15rem;
+	float: left;
+}
+
+/* 底部 */
+footer{
+	width: 100%;
+	height: 0.92rem;
+	background: #f5f6fa;
+}
+.banquan{
+	height: 0.2rem;
+	font-size: 0.18rem;
+	padding-bottom: 0.05rem;
+	padding-top: 0.1rem;
+	color: #666666;
+	text-align: center;
+}

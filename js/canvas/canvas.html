@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>画板</title>
+		<link rel="stylesheet" href="canvas.css" />
+		<link rel="stylesheet" href="iconfont/iconfont.css" />		
+		<script src='canvas.js'></script>
+		<script src='index.js'></script>
+	</head>
+	<body>
+		<main>
+			<div class="left">
+				<!--画-->
+				<label class="iconfont icon-xiantiao-hengxian tools" active='true' id='line'></label>
+				<label class="iconfont icon-xuxian tools" id='xuxian'></label>
+				<label class="iconfont icon-pan_icon tools" id='pet'></label>
+				<label class="iconfont icon-juxing tools" id='juxing'></label>
+				<label class="iconfont icon-yuan tools" id='yuan'></label>
+				<label class="iconfont icon-miaobianwujiaoxing tools" id='duojiao'></label>
+				<label class="iconfont icon-duobianxing tools" id='duobian'></label>
+				
+				
+				<!--颜色-->
+				<div class="cc">
+					<hr size='3' width="100%" style='margin-bottom: 6px;'/>
+					<label class="iconfont icon-miaobian style" active='true' id='stroke'></label>
+					<label ><input type="color" class='stroke'/></label>
+					<label class="iconfont icon-tianchonglishijilu style" id='fill'></label>
+					<label for=""><input type="color" class='fill'/></label>
+				</div>
+				<!--其他-->
+				<div class="qq">
+					<hr size='3' width="100%" style='margin-bottom: 6px;'/>
+					<label class="iconfont icon-xiangpi xiugai"></label>
+					<label class="iconfont icon-weibiaoti6 xiugai"></label>
+					<label class="iconfont icon-caijian xiugai"></label>					
+					<label class="iconfont icon-cuxixiantiao xiugai"></label>					
+					<label class="iconfont icon-fangdajing xiugai"></label>					
+				</div>
+		    </div>
+		    <div class="right">
+			   <div class="top">
+			   	  <label class='iconfont icon-msnui-new'></label>
+			   	  <label >
+			   	  	<a href="" class='iconfont icon-baocun'></a>
+			   	  </label>
+			   	  <label class="iconfont icon-fanzhuan"></label>
+			   	  <label class="iconfont icon-chexiao"></label>
+			   	  <label class="iconfont icon-tupian"></label>
+			   	 
+			   </div>
+			   <div class="bottom">
+			   	  <canvas width="1250" height="600"></canvas>
+			   	  <div class="eraser" style='display: none'></div>
+			   	   <div class="clip"></div>	
+			   	  <div class="mask"></div>			   	  
+			   	 		   	  
+			   </div>
+		    </div>
+		</main>
+		
+	</body>
+</html>

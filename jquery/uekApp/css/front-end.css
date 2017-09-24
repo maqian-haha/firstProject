@@ -1,0 +1,382 @@
+/*
+* @Author: 13009
+* @Date:   2017-07-22 13:57:54
+* @Last Modified by:   13009
+* @Last Modified time: 2017-07-22 21:43:24
+*/
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+header{
+	width: 100%;
+	height:0.92rem;
+	background: #0078e6;
+	position: fixed;
+	z-index: 999;
+	
+	left: 0;
+	top: 0;
+}
+.header-box{
+	width: 100%;
+	height:0.92rem;
+	background: #0078e6;
+
+}
+.you-logo{
+	width: 0.78rem;
+	height: 0.69rem;
+	float: left;
+}
+.you-logo img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	margin-left: 2.67rem;
+	margin-top: 0.12rem;
+}
+.youyike-word{
+	color:#ffffff ;
+	height: 100%;
+	float: right;
+	line-height: 0.92rem;
+	font-size: 0.36rem;
+	font-weight: bolder;
+	margin-right: 2.75rem;
+	
+}
+/* banner */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner a{
+	width: 100%;
+	height: 2.8rem;
+}
+
+.banner a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+nav{
+   width: 100%;
+   height:0.82rem;
+   background: #f5f6fa; 
+}
+nav ul li {
+	height: 100%;
+	font-size: 0.22rem;
+	color: #494747;
+	font-weight: bold;
+	line-height: 0.82rem;
+	margin-left: 0.23rem;
+	float: left;
+}
+nav ul li a{
+	color: #494747;
+}
+/* 图文 */
+.img-list{
+	width: 100%;
+	height: 2.37rem;
+	background: #f5f6fa;
+}
+.img-main{
+	width: 93.6%;
+	height: 2.27rem;
+	background: #ffffff;
+	margin: 0 auto;
+}
+.img-box{
+	width: 100%;
+	height: 1.22rem;
+	padding-top: 0.26rem;
+	padding-bottom: 0.18rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+.img-box li{
+	width: 1.21rem;
+	height: 1.21rem;
+	background: red;
+	border-radius: 50%;
+}
+.img-box li a{
+	width: 1.21rem;
+	height: 1.21rem;
+	border-radius: 50%;
+}
+.img-box li a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.img-word{
+	width: 100%;
+	height: 0.3rem;
+}
+.img-word li{
+	width: 25%;
+	height: 100%;
+	text-align: center;
+	font-size: 0.24rem;
+	color: #000000;
+	float: left;
+}
+/* 前端 */
+.front-end{
+	width: 100%;
+	height: 5.59rem;
+	background: #f5f6fa;
+}
+.front-main{
+	width: 93.6%;
+	height: 5.5rem;
+	background: #ffffff;
+	margin: 0 auto;
+}
+.gaishutiao{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	float: left;
+	margin-top: 0.33rem;
+	margin-left: 0.19rem;
+
+}
+.gaishu-heading{
+
+	width: 6.4rem;
+	height: 0.32rem;
+	float: left;
+	font-size: 0.23rem;
+	color: #444444;
+	padding-bottom: 0.14rem;
+	border-bottom: 0.01rem dashed #999999;
+	margin-left: 0.19rem;
+	padding-top: 0.2rem;
+}
+.front-neirong{
+	width: 6.8rem;
+	height:4.8rem;
+	/* background: red; */
+	padding-left: 0.19rem;
+	padding-right: 0.19rem;
+	overflow: hidden;
+}
+.diyiduan{
+	padding-top: 0.02rem;
+	font-size: 0.24rem;
+	color: #666666;
+	line-height: 0.4rem;
+
+}
+.lansezi{
+	color: #67c9ff;
+}
+/* 就业薪资 */
+.jiuyexinzi{
+	width:6.04rem;
+	height: 4.14rem;
+	margin: 0 auto;
+
+}
+.jiuyexinzi img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+.jiuye-word{
+	height: 0.24rem;
+	font-size: 0.22rem;
+	text-align: center;
+	color: #0e050a;
+}
+/* 就业 */
+.job{
+	width: 100%;
+	height: 5.46rem;
+	background: #f5f6fa;
+}
+.job-main{
+	width: 93.6%;
+	height: 5.61rem;
+	background: #ffffff;
+	margin: 0 auto;
+}
+.job-clasify{
+	width: 6.42rem;
+	height: 4.84rem;
+	padding-left: 0.2rem;
+	margin-left: 0.24rem;
+	/* background: red; */
+	overflow: hidden;
+}
+.job-first{
+	width: 100%;
+	height: 0.6rem;
+	/* background: yellow; */
+	margin-top: 0.18rem;
+}
+.job-first .img{
+	width: 0.56rem;
+	height: 0.56rem;
+	float: left;
+}
+.job-first .img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.job-word{
+	
+	width: 5.76rem;
+	height: 0.56rem;
+	float:right;
+	
+}
+.net-run{
+	height: 0.3rem;
+	line-height: 0.3rem;
+	font-size: 0.22rem;
+	color: #01b5ff;
+}
+.money{
+	width: 100%;
+	height: 5.08rem;
+	background: #f5f6fa;
+}
+.money-main{
+	width: 93.6%;
+	height: 4.98rem;
+	background: #ffffff;
+	margin: 0 auto;
+}
+.money-first{
+	width: 100%;
+	height: 0.66rem;
+	/* background: yellowgreen; */
+	overflow: hidden;
+} 
+.money-first .name{
+	width: 1.6rem;
+	height: 100%;
+	line-height: 0.66rem;
+	text-align: center;
+	font-size: 0.22rem;
+	color: #444444;
+	float: left
+}
+.money-first .xinzi{
+	width: 1.52rem;
+	height: 100%;
+	line-height: 0.66rem;
+	text-align: center;
+	font-size: 0.22rem;
+	color: #444444;
+	float: left;
+}
+.money-first .other{
+	width: 3.8rem;
+	height: 100%;
+	line-height: 0.66rem;
+	text-align: center;
+	font-size: 0.22rem;
+	color: #444444;
+	float: left;
+}
+.money-bottom{
+   width: 100%;
+   height: 3.65rem;
+   /* background: red; */
+}
+.money-bottom .one{
+	width: 6.76rem;
+	height: 0.73rem;
+	/* background: pink; */
+	margin-left: 0.24rem;
+	border-left: 0.01rem dashed #01b5ff;
+	position: relative;
+}
+.one .name{
+	width: 1.14rem;
+	height: 100%;
+	line-height: 0.66rem;
+	text-align: center;
+	font-size: 0.22rem;
+	color: #444444;
+	float: left
+}
+.one .xinzi{
+	width: 1.8rem;
+	height: 100%;
+	line-height: 0.66rem;
+	text-align: center;
+	font-size: 0.22rem;
+	color: #ffa201;
+	float: left;
+}
+.one .other{
+	width: 3.72rem;
+	height: 100%;
+	line-height: 0.66rem;
+	text-align: center;
+	font-size: 0.22rem;
+	color: #444444;
+	float: left;
+}
+.lan-yuan{
+   position: absolute;
+   width: 0.11rem;
+   height: 0.11rem;
+   background: #01b5ff;
+   border:0.07rem solid #94e0ff;
+   left:-0.14rem;
+   top: 0.22rem;
+   border-radius: 50%;
+}
+/* 课程安排 */
+.course{
+	width: 100%;
+	height: 5.14rem;
+	background: #f5f6fa;
+}
+.course-main{
+	width: 93.6%;
+	height: 5rem;
+	background: #ffffff;
+	margin: 0 auto;
+}
+.course-neirong{
+	overflow: hidden;
+	width: 100%;
+	height: 4.25rem;
+	/* background: red; */
+}
+.course-neirong img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* 底部 */
+footer{
+	width: 100%;
+	height: 0.92rem;
+	background: #f5f6fa;
+}
+.banquan{
+	height: 0.2rem;
+	font-size: 0.18rem;
+	padding-bottom: 0.05rem;
+	padding-top: 0.1rem;
+	color: #666666;
+	text-align: center;
+}
